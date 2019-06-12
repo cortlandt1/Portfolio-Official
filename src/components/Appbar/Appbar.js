@@ -15,7 +15,9 @@ const styles = {
     flexGrow: 1,
   },
   header: {
-    backgroundColor: "#0e628c",
+    backgroundColor: "transparent",
+    boxShadow: 'none',
+    width: "100%",
   },
   cortland: {
     display:"flex",
@@ -36,10 +38,10 @@ function ButtonAppBar(props) {
           <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
             <MenuIcon />
           </IconButton>
-          <Grid container spacing={12} className={classes.cortland}>
+          <Grid container spacing={24} className={classes.cortland}>
             <Grid item md={12} >
                 <Typography variant="h6" color="inherit" className={classes.cortland}>
-                  Cortland Taylor
+                  
                 </Typography>
             </Grid>
           </Grid>

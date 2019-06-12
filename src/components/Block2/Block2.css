@@ -1,0 +1,44 @@
+.bg {
+    border-top: 1px rgb(255, 255, 255) solid;
+    height: 1200px;
+    /* min-width: 600px; */
+    width: 100%;
+    background-color: rgb(59, 59, 59);
+    display: flex;
+    justify-content: center;
+}
+
+.gridBox {
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.wrapper {
+    width: 1000px;
+    min-width: 100%;
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    padding:0px;
+}
+
+.test {
+    height: 900px;
+    min-width: 100%;
+    min-width: 375px;
+    border-top: 0.5px solid rgb(3,113,211);
+    background-color: rgb(2,3,8);
+    overflow-x:hidden !important;
+    display: block;
+    justify-content: center;
+}
+
+.heading {
+    font-family: 'Hind', sans-serif;
+    font-size: 35px;
+    color: white;
+    min-width: 375px;
+    width: 100%;
+}
