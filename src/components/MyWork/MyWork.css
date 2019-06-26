@@ -1,0 +1,14 @@
+.container {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.block {
+    background-color: white;
+    height: 200px;
+    width: 400px;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    margin: 0;
+}

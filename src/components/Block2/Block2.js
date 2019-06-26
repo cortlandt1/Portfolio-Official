@@ -12,6 +12,8 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
 import IntroCard from '../IntroCard'
+import MyWork from '../MyWork'
+import AppCard from '../AppCard'
 import './Block2.css'
 
 
@@ -36,9 +38,12 @@ function Block2(props) {
     <>
     <div className='test'>
             <p className='heading'>
-              My Work Thus <span style={{color: '#0371d3' }}>Far</span>
+              My Work Thus <span style={{color: '#0371d3' }}> Far </span>
             </p>
+            {/* <MyWork className='myWork'></MyWork> */}
+            <AppCard></AppCard>
           </div>
+
       {/* <Grid container spacing={2}>
         <Grid item xs={12}>
           <div className='test'>

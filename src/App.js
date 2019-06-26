@@ -9,6 +9,7 @@ function App() {
     <>
       <Router>
         <div>
+          
           <Route exact path='/' component={Block1}/>
           {/* <Navbar uiConfig={uiConfig} isSignedIn={this.state.isSignedIn} userName={this.state.name} /> */}
           {/* <Route path='/Onboarding' component={() => this.state.isSignedIn ? <Onboarding /> : <Loader uiConfig={uiConfig} isSignedIn={this.state.isSignedIn} userName={this.state.name}/>}/> */}

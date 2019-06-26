@@ -13,7 +13,9 @@ import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import './IntroCard.css'
+import '../TypingMation/TypingMation'
 import Appbar from '../Appbar'
+import TypingMation from '../TypingMation/TypingMation';
 
 
 
@@ -34,7 +36,9 @@ const styles = {
   },
   grid: {
     spacing: 0,
-    padding: 0
+    padding: 0,
+    display: 'flex',
+    justifyContent: 'center'
   }
 };
 
@@ -42,14 +46,16 @@ function IntroCard(props) {
   const { classes } = props;
   return (
     <>
-    <Appbar  className="nav"></Appbar>
+    
     <div className="container">
+      
       <Grid className="container" container spacing={24}>
-          <Grid className={classes.grid} item xs={12} >
-            <h1 className='heading'>Hi, I'm Cortland.</h1>
+          <Grid className={classes.grid} item md={12} sm={12} xs={12} >
+            {/* <h1 className='heading'>Hi, I'm Cortland.</h1> */}
+            <TypingMation></TypingMation>
           </Grid>  
-          <Grid className={classes.grid} item xs={12}>
-            <p className="paragraph">I am an aspiring full stack web developer</p>
+          <Grid className={classes.grid} item md={12} sm={12} xs={6}>
+            {/* <p className="paragraph">I am an aspiring full stack web developer</p> */}
           </Grid>
       </Grid>
       </div>

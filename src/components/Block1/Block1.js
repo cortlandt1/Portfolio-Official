@@ -35,6 +35,7 @@ function Block1(props) {
         {/* <img class="image" style={{backgroundImage: 'url(./img/city.jpg)'}} /> */}
         <section className='background'>
           <Grid container spacing={24} className='container'>
+          
             <Grid item md={12} className='wrapper' >
                 <IntroCard className={classes.card}></IntroCard> 
             </Grid>

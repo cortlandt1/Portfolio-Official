@@ -7,11 +7,14 @@
 }
 
 .nav {
+    display: flex;
     color: transparent;
 }
 .heading{
     /* border: 1px white solid; */
     font-family: 'Hind', sans-serif;
+    display: flex;
+    justify-content: center;
     margin: 0;
     padding:0px;
     color: white;
@@ -28,6 +31,8 @@
 .paragraph{    
     /* border: 1px white solid; */
     font-family: 'Hind', sans-serif;
+    display: flex;
+    justify-content: center;
     margin: 0;
     padding:0px;
     color: white;
@@ -40,13 +45,35 @@
 		2px 2px 0 black;
     }
 
+    
 
-@media (max-width: 375px) {
-    .paragraph {
-        font-size: 24px;
-    }
+   h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
+}
 
-    .heading {
-        font-size: 38px;
-    }
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+
+
+    @media (max-width: 376px) {
+        
+        .heading {
+            font-size: 35px;
+            margin-right: 230px;
+            max-width: 150px;
+        }
+        .paragraph {
+            font-size: 30px;
+            min-width: 250px;
+            margin-right: 235px;
+        }
 }
