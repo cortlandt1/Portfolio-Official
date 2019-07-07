@@ -37,22 +37,11 @@ function Block2(props) {
   return (
     <>
     <div className='test'>
-    <div className='capsule'>
-       <p className='head'>My Work Thus Far</p>
+      <div className='capsule'>
+         <p className='head'>My Work Thus Far</p>
     </div>   
-            {/* <MyWork className='myWork'></MyWork> */}
-            <AppCard></AppCard>
-          </div>
-
-      {/* <Grid container spacing={2}>
-        <Grid item xs={12}>
-          <div className='test'>
-            <p className='heading'>
-              My Work Thus <span style={{color: '#0371d3' }}>Far</span>
-            </p>
-          </div>
-        </Grid>
-      </Grid> */}
+      <AppCard></AppCard>
+    </div>
     </>
   );
 }

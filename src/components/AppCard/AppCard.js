@@ -12,6 +12,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
 import './AppCard.css'
+import CodePen from '../CodePen/CodePen.js'
 
 
 const styles = {
@@ -28,6 +29,15 @@ function AppCard(props) {
     <>
         <div className='contain'>
             <div className='app'>
+              {/* <p class="codepen" data-height="265" data-theme-id="0"
+              data-default-tab="js,result" data-user="cortlandt1" data-slug-hash="pXVLMq" data-preview="true"
+              style={{height: "265px", boxSizing: "border-box", display: "flex", alignItems: "center", justifyContent: "center", border: "2px solid", margin: "1em 0", padding: "1em"}} data-pen-title="pXVLMq">
+              <span>See the Pen <a href="https://codepen.io/cortlandt1/pen/pXVLMq/">
+              pXVLMq</a> by cortlandt1 (<a href="https://codepen.io/cortlandt1">@cortlandt1</a>)
+              on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://static.codepen.io/assets/embed/ei.js"></script> */}
+              <CodePen></CodePen>
               <div>
                 <button className='preview'>
                     Preview

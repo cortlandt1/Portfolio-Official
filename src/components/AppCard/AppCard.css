@@ -1,16 +1,18 @@
 .app {
-    background-image: url(./img/forest.jpg);
+    /* background-image: url(./img/bridge.jpg); */
     width: 500px;
     height: 350px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 27px;
     /* border: 1px solid white; */
 }
 
 .contain {
     /* border: 1px solid white; */
     display: inline-flex;
+    margin-left: 35px;
 }
 
 .app-info {
@@ -19,19 +21,20 @@
     align-items: middle;
     width: 100%;
     width: 300px;
-    color: white;
-    /* border: 1px solid white; */
+    color: black;
+    /* border: 1px solid black; */
 }
 
 .header {
     display: block;
-    text-align: center;
-    /* border: 1px solid white; */
+    text-align: left;
+    /* border: 1px solid black; */
     width: 100%;
+    margin: 0px!important;
 }
 
 .preview {
- color: white;
+ color: black;
  background-color: transparent;
  border: none;
  transition: linear 0.1s;
@@ -54,3 +57,6 @@
  outline:none;
 }
 
+ul {
+    list-style-type:square;
+}
