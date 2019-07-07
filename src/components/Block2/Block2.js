@@ -37,9 +37,9 @@ function Block2(props) {
   return (
     <>
     <div className='test'>
-            <p className='heading'>
-              My Work Thus <span style={{color: '#0371d3' }}> Far </span>
-            </p>
+    <div className='capsule'>
+       <p className='head'>My Work Thus Far</p>
+    </div>   
             {/* <MyWork className='myWork'></MyWork> */}
             <AppCard></AppCard>
           </div>

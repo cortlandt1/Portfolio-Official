@@ -34,13 +34,20 @@ function Block1(props) {
     <>
         {/* <img class="image" style={{backgroundImage: 'url(./img/city.jpg)'}} /> */}
         <section className='background'>
-          <Grid container spacing={24} className='container'>
-          
+          <Grid container spacing={12} className='container'>
             <Grid item md={12} className='wrapper' >
-                <IntroCard className={classes.card}></IntroCard> 
+                {/* <IntroCard className={classes.card}></IntroCard>  */}
+                <h1>
+                Hi, I'm 
+                  <span className='nameHover'> Cortland.</span>
+                <br/>
+                <span>I'm a full stack web developer.</span>
+                </h1>
             </Grid>
             <Grid item md={12} className='button-container'>
-              <Button color='primary' className='workButton'>See My Work</Button>
+              <button color='primary' className='workButton'>My Work</button>
+              <button color='primary' className='gitButton'>Github</button>
+              <button color='primary' className='contactButton'>Contact</button>
             </Grid>
           </Grid>
         </section>

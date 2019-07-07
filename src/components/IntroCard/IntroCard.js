@@ -13,9 +13,7 @@ import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import './IntroCard.css'
-import '../TypingMation/TypingMation'
 import Appbar from '../Appbar'
-import TypingMation from '../TypingMation/TypingMation';
 
 
 
@@ -51,11 +49,11 @@ function IntroCard(props) {
       
       <Grid className="container" container spacing={24}>
           <Grid className={classes.grid} item md={12} sm={12} xs={12} >
-            {/* <h1 className='heading'>Hi, I'm Cortland.</h1> */}
-            <TypingMation></TypingMation>
+            <h1 className='heading'>Hi, I'm Cortland.</h1>
+            {/* <TypingMation></TypingMation> */}
           </Grid>  
           <Grid className={classes.grid} item md={12} sm={12} xs={6}>
-            {/* <p className="paragraph">I am an aspiring full stack web developer</p> */}
+            <p className="paragraph">I am an aspiring full stack web developer</p>
           </Grid>
       </Grid>
       </div>
