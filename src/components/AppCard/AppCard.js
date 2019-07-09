@@ -31,7 +31,7 @@ function AppCard(props) {
             <div className='app'>
               
               <CodePen></CodePen>
-              <div>
+              {/* <div>
                 <button className='preview'>
                     Preview
                 </button>
@@ -40,7 +40,7 @@ function AppCard(props) {
                 <button className='code'>
                     View Code
                 </button>
-              </div>  
+              </div>   */}
             </div>
             <div className='app-info'>
               <div className="header">

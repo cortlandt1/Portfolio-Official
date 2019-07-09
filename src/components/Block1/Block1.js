@@ -38,7 +38,7 @@ function Block1(props) {
             <Grid item md={12} className='wrapper' >
                 {/* <IntroCard className={classes.card}></IntroCard>  */}
                 <h1>
-                Hi, I'm 
+                Hello, I'm 
                   <span className='nameHover'> Cortland.</span>
                 <br/>
                 <span>I'm a full stack web developer.</span>
