@@ -11,8 +11,8 @@ const styles = {
   }
 };
 
-const CodepenEmbedded = () => {
-  return <Codepen hash="pXVLMq" user="cortlandt1" />;
+const CodepenEmbedded = (props) => {
+  return <Codepen hash={props.hash} user={props.user} />;
 };
 
 CodepenEmbedded.propTypes = {
@@ -20,3 +20,6 @@ CodepenEmbedded.propTypes = {
 };
 
 export default (CodepenEmbedded);
+
+//"pXVLMq"
+//cortlandt1

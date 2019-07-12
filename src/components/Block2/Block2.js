@@ -13,8 +13,9 @@ import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
 import IntroCard from '../IntroCard'
 import MyWork from '../MyWork'
-import AppCard from '../AppCard'
+import AppCardLeft from '../AppCardLeft'
 import './Block2.css'
+import AppCardRight from '../AppCardRight';
 
 
 const styles = {
@@ -38,9 +39,13 @@ function Block2(props) {
     <>
     <div className='test'>
       <div className='capsule'>
-         <p className='head'>My Work Thus Far</p>
+         <p className='head'>My 
+         <span className="workHover"> Work </span> 
+         Thus Far</p>
     </div>   
-      <AppCard></AppCard>
+      <AppCardLeft hash='pXVLMq' name="cortlandt1" title="Hangman Game" point1="Built entirely using vanilla Javascript" point2=""></AppCardLeft>
+      <AppCardRight hash='dBwZNW' name="cortlandt1" title="Train Scheduler"></AppCardRight>
+      <AppCardLeft hash="wLNXPg" name="cortlandt1"></AppCardLeft>
     </div>
     </>
   );

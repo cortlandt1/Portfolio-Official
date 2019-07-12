@@ -1,0 +1,40 @@
+.app1 {
+    /* background-image: url(./img/bridge.jpg); */
+    /* width: 500px;
+    height: 350px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 27px;
+    padding-left: 60px;
+    border-left: 1px solid rgb(0, 0, 0);
+}
+
+.contain1 {
+    /* border: 1px solid white; */
+    display: inline-flex;
+    margin-left: 37%;
+}
+
+.app-info1 {
+    display: block;
+    align-items: middle;
+    width: 100%;
+    width: 300px;
+    color: black;
+    /* border: 1px solid black; */
+}
+
+.header1 {
+    display: block;
+    text-align: right;
+    /* border-bottom: 1px solid black; */
+    width: 80%;
+    margin: 0px!important;
+}
+
+
+
+ul {
+    list-style-type:square;
+}

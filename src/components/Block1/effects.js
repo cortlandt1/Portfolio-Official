@@ -1,0 +1,10 @@
+import $ from 'jquery';
+
+$(document).ready(function() {
+    $(window).scroll(function(e) {
+        var s = $(window).scrollTop(),
+            opacityVal = (s / 200);
+
+        $('.blur').css('opacity', opacityVal);
+    });
+});

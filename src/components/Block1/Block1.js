@@ -14,6 +14,12 @@ import Grid from '@material-ui/core/Grid';
 import IntroCard from '../IntroCard'
 import './Block1.css'
 import Block2 from '../Block2'
+import MyWork from '../MyWork'
+import AppCardLeft from '../AppCardLeft'
+import AppCardRight from '../AppCardRight';
+import ButtonAppBar from '../ButtonAppbar/ButtonAppbar'
+import './effects'
+// import Title from '../Title'
 
 const styles = {
   root: {
@@ -34,18 +40,22 @@ function Block1(props) {
     <>
         {/* <img class="image" style={{backgroundImage: 'url(./img/city.jpg)'}} /> */}
         <section className='background'>
+        <ButtonAppBar></ButtonAppBar>
           <Grid container spacing={12} className='container'>
             <Grid item md={12} className='wrapper' >
                 {/* <IntroCard className={classes.card}></IntroCard>  */}
-                <h1>
+                <h1 className='intro'>
                 Hello, I'm 
                   <span className='nameHover'> Cortland.</span>
                 <br/>
                 <span>I'm a full stack web developer.</span>
                 </h1>
+                {/* <Title></Title> */}
             </Grid>
             <Grid item md={12} className='button-container'>
+            <a href='#block2'>
               <button color='primary' className='workButton'>My Work</button>
+              </a>  
               <button color='primary' className='gitButton'>Github</button>
               <button color='primary' className='contactButton'>Contact</button>
             </Grid>
@@ -53,7 +63,8 @@ function Block1(props) {
         </section>
           <Grid container spacing={24}>
             <Grid item md={12}>
-              <Block2></Block2>
+              <a id="block2"></a>
+              <Block2 ></Block2>
             </Grid>
           </Grid>  
     </>
