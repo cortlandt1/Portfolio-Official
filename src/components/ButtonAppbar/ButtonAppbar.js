@@ -8,6 +8,7 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import Grid from '@material-ui/core/Grid';
+import './ButtonAppbar.css'
 
 
 const styles = {
@@ -18,31 +19,27 @@ const styles = {
     backgroundColor: "transparent",
     boxShadow: 'none',
     width: "100%",
-    borderBottom: '.5px solid black'
+    borderBottom: '.5px solid black',
+    height: "50px",
   },
   cortland: {
-    display:"flex",
+    display:"inline-flex",
     justifyContent: "left",
     color: "black",
-    // marginRight: '20px'
+    fontWeight: 800,
+    fontSize: "25px",
+    height: "50px",
   },
   menuButton: {
     marginLeft: -12,
     marginRight: 20,
   },
-  links: {
-    textAlign: 'right',
-    display: 'inline-flex',
-    float: 'right'
-
-  }
 };
 
 function ButtonAppBar(props) {
   const { classes } = props;
   return (
     <div className={classes.root}>
-      <AppBar className={classes.header} position="static">
         <Toolbar>
           <IconButton className={classes.menuButton} color="black" aria-label="Menu">
             {/* <MenuIcon /> */}
@@ -53,21 +50,19 @@ function ButtonAppBar(props) {
                   Cortland Taylor
                 </Typography>
             </Grid>
-            <Grid item md={6} className={classes.links}>
-              <a href="www.google.com">
-                <p>My Work</p>
-              </a>  
-              <a href="www.google.com">
-                <p>Github</p>
-              </a>  
-              <a href="www.google.com">
-                <p>Contact</p>
-              </a>  
-              
+            <Grid item md={6} className="links">
+              <button className="AppBarLinks">
+                My Work
+              </button>
+              <button className="AppBarLinks">
+                Github
+              </button>
+              <button className="AppBarLinks">
+                Contact
+              </button>
             </Grid>
           </Grid>
         </Toolbar>
-      </AppBar>
     </div>
   );
 }

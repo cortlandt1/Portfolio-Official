@@ -5,6 +5,6 @@ $(document).ready(function() {
         var s = $(window).scrollTop(),
             opacityVal = (s / 200);
 
-        $('.blur').css('opacity', opacityVal);
+        $('.blurred-image').css('opacity', opacityVal);
     });
 });

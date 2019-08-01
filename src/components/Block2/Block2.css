@@ -26,14 +26,15 @@
 }
 
 .test {
-    height: 1500px;
+    height: 1700px;
     min-width: 100%;
     min-width: 375px;
     /* background-color: rgb(2,3,8); */
-    background-image: linear-gradient(rgb(47, 47, 47), rgb(29, 29, 29));
+    background-image: linear-gradient(rgb(99, 112, 124), rgb(47, 47, 47));
     overflow-x:hidden !important;
     display: block;
     justify-content: center;
+    border-top: 1px solid black;
 }
 
 .capsule {
@@ -59,5 +60,9 @@
 }
 
 .workHover:hover {
-    color:rgb(255, 238, 0)
+    color:rgb(0, 174, 255)
+}
+
+.app3 {
+    margin-top: 500px;
 }

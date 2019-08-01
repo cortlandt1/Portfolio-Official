@@ -45,7 +45,7 @@ function Block2(props) {
     </div>   
       <AppCardLeft hash='pXVLMq' name="cortlandt1" title="Hangman Game" point1="Built entirely using vanilla Javascript" point2=""></AppCardLeft>
       <AppCardRight hash='dBwZNW' name="cortlandt1" title="Train Scheduler"></AppCardRight>
-      <AppCardLeft hash="wLNXPg" name="cortlandt1"></AppCardLeft>
+      <AppCardLeft hash="wLNXPg" name="cortlandt1" title="Trivia Game" className="app3"></AppCardLeft>
     </div>
     </>
   );
