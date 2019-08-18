@@ -28,6 +28,9 @@ function AppCardRight(props) {
   return (
     <>
         <div className='contain1'>
+            <div className='app1'>           
+              <CodePen hash={props.hash} user={props.name}></CodePen>
+            </div>            
             <div className='app-info1'>
               <div className="header1">
                 <h2>
@@ -38,14 +41,16 @@ function AppCardRight(props) {
                     <li>
                       {props.point1}
                     </li>
+                    <p></p>
                     <li>
                       {props.point2}
                     </li>
+                    <p></p>
+                    <li>
+                      {props.point3}
+                    </li>
                   </ul>
             </div>
-            <div className='app1'>           
-              <CodePen hash={props.hash} user={props.name}></CodePen>
-            </div>            
         </div>
     </>
   );

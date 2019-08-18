@@ -26,9 +26,10 @@ const styles = {
     display:"inline-flex",
     justifyContent: "left",
     color: "black",
-    fontWeight: 800,
+    fontWeight: 400,
     fontSize: "25px",
     height: "50px",
+   
   },
   menuButton: {
     marginLeft: -12,
@@ -40,7 +41,7 @@ function ButtonAppBar(props) {
   const { classes } = props;
   return (
     <div className={classes.root}>
-        <Toolbar>
+        <Toolbar classname="toolbar">
           <IconButton className={classes.menuButton} color="black" aria-label="Menu">
             {/* <MenuIcon /> */}
           </IconButton>
@@ -51,12 +52,16 @@ function ButtonAppBar(props) {
                 </Typography>
             </Grid>
             <Grid item md={6} className="links">
+            <a href='#block2'>
               <button className="AppBarLinks">
                 My Work
               </button>
+            </a>  
+            <a href='https://github.com/cortlandt1' target='_blank'>
               <button className="AppBarLinks">
                 Github
               </button>
+            </a>  
               <button className="AppBarLinks">
                 Contact
               </button>

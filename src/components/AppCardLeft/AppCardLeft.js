@@ -41,8 +41,13 @@ function AppCardLeft(props) {
                     <li>
                       {props.point1}
                     </li>
+                    <p></p>
                     <li>
                       {props.point2}
+                    </li>
+                    <p></p>
+                    <li>
+                      {props.point3}
                     </li>
                   </ul>
             </div>

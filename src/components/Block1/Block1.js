@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { render } from "react-dom";
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
@@ -12,6 +12,7 @@ import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
+import Typist from 'react-typist';
 import IntroCard from '../IntroCard'
 import './Block1.css'
 import Block2 from '../Block2'
@@ -87,19 +88,22 @@ class Block1 extends React.Component {
             <div className="img-src"></div>
             <div className="img-src blurred-image"></div>
           </div>         
-        <ButtonAppBar></ButtonAppBar>      
+        <ButtonAppBar></ButtonAppBar>    
+
           <Grid container spacing={12} className='container'>
             <Grid item md={12} className='wrapper' >
                 {/* <IntroCard className={classes.card}></IntroCard>  */}
-                <h1 className='intro'>
-          
-                Hi, I'm 
-                  <span className='nameHover'> Cortland.</span>
-                <br/>
-                <span>I'm a full stack web developer.</span>
-                </h1>
-                {/* <Title></Title> */}
+                <Typist className='type1'
+                cursor={{blink: true,  hideWhenDone: true, element: '',}}
+                >
+                  <span>Hi, I'm Cortland.</span>   
+                  <br />     
+                  <div className="type2">
+                    <p>I'm a fullstack developer.</p>
+                  </div>        
+                </Typist>             
             </Grid> 
+            
             <Grid item md={12} className='button-container'>
             <a href='#block2'>
               <button color='primary' className='workButton'>My Work</button>

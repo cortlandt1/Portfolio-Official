@@ -1,0 +1,98 @@
+.app1 {
+    /* background-image: url(./img/bridge.jpg); */
+    /* width: 500px;
+    height: 350px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 27px;
+    padding-right: 60px;
+    border-right: 1px solid rgb(0, 0, 0);
+    margin-left: 43%;
+    margin-bottom: 27px;
+
+}
+
+.image {
+    background-image: url(./img/Trail-img.jpg);
+    height: 298px;
+    width: 298px;
+    justify-content: center;
+    background-position: center;
+    }
+
+.image:hover {
+    transform: scale(1.01, 1.01);
+    transition-timing-function: ease;;
+}
+
+.contain1 {
+    /* border: 1px solid white; */
+    display: inline-flex;
+    margin-bottom: 285px; 
+    background-color: rgb(155,176,205);
+    width: 100%;
+}
+
+.app-info1 {
+    display: block;
+    align-items: middle;
+    width: 100%;
+    width: 300px;
+    color: black;
+    /* border: 1px solid black; */
+}
+
+.header1 {
+    display: block;
+    text-align: right;
+    /* border-bottom: 1px solid black; */
+    width: 80%;
+    margin: 0px!important;
+}
+
+.button-contain {
+    display: flex;
+    justify-content: center;
+}
+
+.button1 {
+    margin: 3px;
+    color: black !important;
+    text-align: center !important;
+    font-size: 15px !important;
+    background-color: transparent;
+    border: 0.5px solid rgb(0, 0, 0)!important;
+    font-family: 'Hind', sans-serif !important;
+}
+
+.button2{
+    margin: 3px;
+    color: black !important;
+    text-align: center !important;
+    font-size: 15px !important;
+    background-color: transparent;
+    border: 0.5px solid rgb(0, 0, 0)!important;
+    font-family: 'Hind', sans-serif !important;
+}
+
+.button1:hover {
+    background-color:  rgba(37, 127, 216, 0.5);
+}
+
+.button2:hover {
+    background-color:  rgba(37, 127, 216, 0.5);
+}
+
+.button1:active {
+    background-color: transparent;}
+
+.button2:active {
+    background-color: transparent;
+
+}
+
+
+ul {
+    list-style-type:square;
+}

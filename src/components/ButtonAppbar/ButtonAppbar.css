@@ -1,12 +1,14 @@
+
+
 .AppBarLinks {
     background-color: transparent;
     border: none;
-    font-weight: 800;
+    font-weight: 500!important;
     font-size: 17px;
 }
 
 button.AppBarLinks:hover {
-    color: yellow;
+    color:rgba(37, 127, 216, 1)
 }
 
 button.AppBarLinks:active {
@@ -17,13 +19,15 @@ button.AppBarLinks:active {
     text-align: right;
     justify-content: right;
     float: right;
+    font-weight: 400!important;
+    /* font-family: "Hind"!important; */
 }
 
 .cortland {
     display: inline-flex;
     justify-content: left;
     color: black;
-    font-weight: 800;
+    font-family: "Hind"!important;
     font-size: 25px;
     height: 50px;
 }
